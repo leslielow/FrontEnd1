@@ -1,0 +1,72 @@
+.miHeader {
+  text-align: center;
+  background-color: #E5E5E5;
+}
+
+.titulo-cv {
+  background-color: #C4C4C4;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005677;
+  font-size: 35px;
+  line-height: 29.64px;
+}
+
+footer {
+  background-color: #005677;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dato-personal {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 27.7px;
+}
+
+.temario-etiqueta {
+  background-color: #C4C4C4;
+  color: #005677;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.lista-fecha {
+  display: flex;
+}
+
+.descripcion-por-fecha {
+  padding-left: 8px;
+  margin-top: 3px;
+}
+
+.fecha {
+  font-weight: bold;
+}
+
+.contenedor-cv {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.info-footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.logo-redes {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 15px;
+}
+
+.parrafo-uno {
+  line-height: 12.7px;
+}
+
+.parrafo-dos {
+  line-height: 0.7px;
+}
