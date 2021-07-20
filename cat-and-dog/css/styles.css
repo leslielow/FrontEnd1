@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.primer_header {
+background-color: #222222;
+height: 20px;
+color: #ffffff;
+display: flex;
+}
+
+.items_primer_header {
+  display: flex;
+}
+
+.segundo_header {
+background-color: #F0A83E;
+top: 20px;
+height: 62px;
+}
+
+.banner {
+  width: 100%;
+}

@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.anuncio-descuentos {
+  background-color: #1CD1B0;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+}
+
+.header_heroes {
+  background-color: #00669F;
+  font-size: 35px;
+  padding: 15px;
+  padding-left: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 8px 5px 0px #c3c3c3;
+}
+
+.seccion_heroes {
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.tarjeta {
+  display: inline-block;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.img_tarjeta {
+  height: 193px;
+  position: relative;
+}
+
+.corazon {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+}
+
+.fotoAvatar {
+  position: absolute;
+  bottom: -50px;
+  left: 30%;
+  border-radius: 60px;
+  box-shadow: 1px 3px 6px 1px grey;
+  z-index: 10;
+}
+
+.texto_tarjeta {
+  height: 336px;
+  background-color: #F3F3F3;
+  border: 1px solid rgb(214 207 207);
+  box-shadow: 0px 4px 4px 0px #d8d3d3;
+  position: relative;
+}
+
+.texto_tarjeta h4 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.texto_tarjeta p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.boton_verMas {
+  background-color: #00669F;
+  color: #ffffff;
+  height: 36px;
+  width: 100px;
+  text-align: center;
+  padding-top: 8px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+}
+
+footer {
+  background-color: #00669F;
+  color: #ffffff;
+  height: 30px;
+  padding: 5px;
+  padding-left: 10px;
+}
