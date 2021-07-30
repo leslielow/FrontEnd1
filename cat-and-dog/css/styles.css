@@ -4,14 +4,23 @@
 }
 
 .primer_header {
+padding-left: 10px;
 background-color: #222222;
 height: 20px;
 color: #ffffff;
 display: flex;
+position: relative;
 }
 
-.items_primer_header {
-  display: flex;
+.items_primer_header ul{
+justify-content: space-between;
+display: flex;
+position: absolute;
+right: 40px;
+}
+
+.item_primer_h {
+margin-left: 20px;
 }
 
 .segundo_header {
@@ -22,4 +31,8 @@ height: 62px;
 
 .banner {
   width: 100%;
+}
+
+nav {
+  color: white;
 }
