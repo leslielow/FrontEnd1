@@ -16,18 +16,83 @@ header {
   z-index: 50;
 }
 
+.logoPagina {
+  position: absolute;
+}
+
 .header_heroes {
   background-color: #00669F;
   font-size: 35px;
-  padding: 15px;
+  padding: 20px;
   padding-left: 23px;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0px 8px 5px 0px #c3c3c3;
+  padding-left: 105px;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  box-shadow: 0px 8px 5px 0px #c3c3c3;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-right: 25px;
+  column-gap: 12.5px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
 }
 
 main {
+  min-height: calc(100vh - 130px);
   display: flex;
   justify-content: space-around;
+}
+
+.container-login {
+  margin-top: 12%;
+}
+
+.container-login h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.inputLogin {
+  border: 1px solid black;
+  display: flex;
+  margin-top: 10px;
+  width: 400px;
+  height: 30px;
+}
+.button-entrar {
+  margin-top: 30px;
+  width: 400px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: #1CD1B0;
+  border: none;
+}
+
+.registrarme {
+  padding-top: 12px;
+  color: #00669F;
+  display: flex;
+  justify-content: center;
+}
+
+.registrarme a {
+  text-decoration: none;
+  padding-left: 5px;
+  color: black;
 }
 
 .seccion_heroes {
