@@ -11,22 +11,23 @@
 
 <body>
   <header>
-    <div class="primer_header">
+    <div class="primer-header">
       <p>Grandes ofertas en comederos</p>
-      <nav class="items_primer_header">
-         <ul type="none" >
-        <li class="item_primer_h">Español</li>
-        <li class="item_primer_h">$ARG</li>
-      </ul>
-      </nav>
-     
-    </div>
-    <div class="segundo_header">
-      <img src="img/Cat.png" alt="gatito">
-      <h3>FrontCat&Dog</h3>
-      <img src="img/Dog.png" alt="perrito">
-      <nav>
+      <nav class="items-primer-header">
         <ul type="none">
+          <li class="item-primer-h">Español</li>
+          <li class="item-primer-h">$ARG</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="segundo-header">
+      <div class="iconosYTitulo">
+        <img src="img/Cat.png" alt="gatito">
+        <h3>FrontCat&Dog</h3>
+        <img src="img/Dog.png" alt="perrito">
+      </div>
+      <nav>
+        <ul type="none" class="segundoHeaderUl">
           <li>Categorias</li>
           <li>Pets</li>
           <li>Nosotros</li>
@@ -35,31 +36,50 @@
       </nav>
     </div>
   </header>
+
   <main>
     <div class="banner">
       <img src="img/foto.png" alt="Plato con comida de perro">
-      <h4>¡Es un placer tenerte aquí!</h4>
-      <p>¡Comederos en descuento!</p>
+      <p class="mensajeBanner">¡Es un placer tenerte aquí!</p>
+      <p class="mensajeDosBanner">¡Comederos en descuento!</p>
+      <button>COMEDEROS</button>
     </div>
-    <button>COMEDEROS</button>
-    <section>
-      <img src="img/pawprint 1.png" alt="huella de perro">
-      <h2>Productos destacados</h2>
-      <ul type="none">
-        <li>Comederos</li>
-        <li>Accesorios</li>
-        <li>Comida</li>
-      </ul>
-      <img src="img/churrasquito.png" alt="juguete churrasquito para perro">
-      <p>Juguete Churrasquito</p>
-      <h5>$150</h5>
-      <img src="img/comedero.png" alt="comedero para perro">
-      <p>Comedero para perro</p>
-      <h5>$250</h5>
-      <img src="img/Huesito.png" alt="juguete huesito para perro">
-      <p>Juguete Huesito</p>
-      <h5>$650</h5>
+
+    <section class="productosDestacados">
+      <div class="contenedor-presentacion-destacados">
+        <div class="huellaLogo">
+          <img src="img/pawprint 1.png" alt="huella de perro">
+        </div>
+        <div class="div-titulo">
+          <h2 class="titularDestacados">Productos destacados</h2>
+        </div>
+      </div>
+      <div>
+        <ul class="enlacesUl" type="none">
+          <li>Comederos <span class="divisorMenu">-</span></li>
+          <li>Accesorios <span class="divisorMenu">-</span></li>
+          <li>Comida</li>
+        </ul>
+      </div>
     </section>
+
+      <section class="contenedor-producto-destacado">
+        <div class="producto-destacado">
+          <img src="img/churrasquito.png" alt="juguete churrasquito para perro">
+          <p>Juguete Churrasquito</p>
+          <h5>$150</h5>
+        </div>
+        <div class="producto-destacado">
+          <img src="img/comedero.png" alt="comedero para perro">
+          <p>Comedero para perro</p>
+          <h5>$250</h5>
+        </div>
+        <div class="producto-destacado">
+          <img src="img/Huesito.png" alt="juguete huesito para perro">
+          <p>Juguete Huesito</p>
+          <h5>$650</h5>
+        </div>
+      </section>
   </main>
   <footer>
     <hr>

@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.primer_header {
+.primer-header {
 padding-left: 10px;
 background-color: #222222;
 height: 20px;
@@ -12,27 +12,158 @@ display: flex;
 position: relative;
 }
 
-.items_primer_header ul{
+.items-primer-header ul{
 justify-content: space-between;
 display: flex;
 position: absolute;
 right: 40px;
 }
 
-.item_primer_h {
+.item-primer-h {
 margin-left: 20px;
 }
 
-.segundo_header {
+.segundo-header {
+display: flex;
 background-color: #F0A83E;
-top: 20px;
 height: 62px;
+position: relative;
 }
 
-.banner {
-  width: 100%;
+.iconosYTitulo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  position: absolute;
+  top: 24%;
+  left: 3%;
+}
+
+.iconosYTitulo img {
+  height: 22px;
 }
 
 nav {
+  display: flex;
+  position: absolute;
+  right: 10px;
   color: white;
+  top: 0px;
+}
+
+.segundoHeaderUl {
+  padding: 5px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.segundoHeaderUl li {
+  position: relative;
+  top: 65%;
+  right: 3%;
+}
+
+main {
+  min-height: calc(100vh - 130px);
+}
+
+.banner img {
+  width: 100%;
+  position: relative;
+}
+
+.banner p {
+  position: absolute;
+  z-index: 1;
+}
+
+.mensajeBanner {
+  font-size: 35px;
+  top: 40%;
+  right: 6%;
+  background-color: white;
+  padding: 10px;
+}
+
+.mensajeDosBanner {
+  font-size: 20px;
+  padding: 5px;
+  top: 48%;
+  right: 11%;
+}
+
+.banner button {
+  font-size: 15px;
+  position: absolute;
+  top: 53%;
+  right: 15%;
+  padding: 12px;
+  background-color: #F0A83E;
+  color: white;
+  border: none;
+}
+
+.productosDestacados {
+  margin: 40px;
+  position: relative;
+}
+
+.huellaLogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.div-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.titularDestacados {
+  font-size: 45px;
+}
+
+.enlacesUl {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divisorMenu {
+  margin-left: 9px;
+}
+
+.contenedor-producto-destacado {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.producto-destacado {
+  position: relative;
+  height: 345px;
+  width: 280px;
+}
+
+.producto-destacado img, p, h5 {
+  position: absolute;
+}
+
+.producto-destacado p {
+  bottom: 12%;
+}
+
+.producto-destacado h5 {
+  bottom: 5%;
+}
+
+footer {
+  padding-left: 10px;
+  background-color: black;
+  color: #ffffff;
+  height: 20px;
 }
